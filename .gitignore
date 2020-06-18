@@ -1,0 +1,50 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+crud/backend/node_modules
+
+# dependencies
+watches/node_modules
+watches/.pnp
+watches/.pnp.js
+watches/.idea
+
+# testing
+watches//coverage
+
+# production
+watches/build
+
+# misc
+watches/.DS_Store
+watches/.env.local
+watches/.env.development.local
+watches/.env.test.local
+watches/.env.production.local
+
+watches/npm-debug.log*
+watches/yarn-debug.log*
+watches/yarn-error.log*
+
+
+# dependencies
+crud/node_modules
+crud/.pnp
+crud/.pnp.js
+crud/.idea
+
+# testing
+crud//coverage
+
+# production
+crud/build
+
+# misc
+crud/.DS_Store
+crud/.env.local
+crud/.env.development.local
+crud/.env.test.local
+crud/.env.production.local
+
+crud/npm-debug.log*
+crud/yarn-debug.log*
+crud/yarn-error.log*crud
